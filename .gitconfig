@@ -1,0 +1,13 @@
+[url "git@github.com:"]
+        insteadOf = https://github.com/
+[fetch]
+        prune = true
+[pull]
+        rebase = false
+[user]
+        name = changeme
+        email = changeme
+[push]
+        autoSetupRemote = true
+[core]
+        editor = vim
