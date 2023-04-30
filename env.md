@@ -78,7 +78,9 @@ git config --global push.autoSetupRemote true
 git config --global core.editor "vim"
 ```
 
-### Configure `vim` indentation
+### Configure `vim`
 ```zsh
+echo "syntax on" >> ~/.vimrc
+echo "set re=0" >> ~/.vimrc
 echo "set autoindent expandtab tabstop=2 shiftwidth=2" >> ~/.vimrc
 ```
